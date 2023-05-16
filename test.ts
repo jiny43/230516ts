@@ -1,3 +1,8 @@
+import {data} from "./module-file"
+import {jieun} from "./jieun"
+
+jieun("안녕하세요");
+console.log(data);
 const a = 1;
 const b = 2;
 
