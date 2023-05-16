@@ -3,4 +3,4 @@ var b = 2;
 function c(a, b) {
     return a + b;
 }
-console.log(c("a", b));
+console.log(c(a, b));
