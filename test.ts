@@ -17,6 +17,7 @@ let test = {
   name: "Kongukjae",
   age: 20,
   job:"minam"
+  
 }
 
 console.log(exampleOne(test));
