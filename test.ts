@@ -1,17 +1,22 @@
-import {data} from "./module-file"
-import {jieun} from "./jieun"
 
-jieun("안녕하세요");
-console.log(data);
-const a = 1;
-const b = 2;
+// function plus(a:Number,b:Number):Number{
+//   return a+b;
+// }
 
-function moreFunction():void{
-  console.log('hi');
+// console.log(plus(1,2));
+
+function exampleOne(object:object){
+  let value :Array<string>=[];
+  for (let key in object){
+    value.push(key);
+  }
+  return value;
 }
-//void 리턴이 없다 ->실행함수(코드를 안봐도 된다.)
-function c(a:number,b:number) : number{
-  return a+b;
+
+let test = {
+  name: "Kongukjae",
+  age: 20,
+  job:"minam"
 }
 
-console.log(c(a,b));
+console.log(exampleOne(test));
