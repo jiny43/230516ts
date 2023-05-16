@@ -6,4 +6,4 @@ function createElement(tagName, props){
   return `<${tagName}${propsString}></{tagName}>`;
 }
 
-console.log(createElement('div',{class:'training',id:'typescript'}));
+console.log(createElement('div',{class:'training',id:'typescript'})); 
