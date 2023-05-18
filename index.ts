@@ -37,7 +37,7 @@ console.log(GamBamBo('보', '가위'));
 
 function randomNumber(min:number, max:number) {
     return Math.floor(Math.random() * (max - min) + min);
-  }
+}
 console.log(randomNumber(0,3));
 
 console.log(GamBamBo(rules[randomNumber(0,3)],rules[randomNumber(0,3)]));
