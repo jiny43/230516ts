@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/jiny43/230516ts#readme",
   "devDependencies": {
-    "@types/node": "^20.1.7",
+    "@types/node": "^20.2.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
   }
